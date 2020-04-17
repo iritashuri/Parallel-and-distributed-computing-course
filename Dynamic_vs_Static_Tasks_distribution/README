@@ -1,0 +1,20 @@
+Brief:
+Given code that runs with a double loop the "heavy" function add add all and the results together by,
+(The function heavy is very heavy on the computer and takes time to perform).
+In this project  divided the task into smaller tasks and divided them between different amount of processes working in parallel.
+
+The division of tasks between the processes took place in 2 different ways -
+1. Statically, wich each process got several tasks to perform beforahaed.
+2. Dynamically when each process received a task as soon as it was free.
+
+The Project contain 3 small projects:
+1. Static - Contain the static task division.
+2. Dynamic - Contain the dynamic task division. 
+3. Sequential - the code  with out paraller processes.
+
+Running instructions: 
+By using Ubuntu terminal :
+1. mpicc <Cfile name> -lm -o <binary executable name>
+2. mpiexec -np <number of processes> <binary executable name>
+
+(For Sequential number of processes have to be 1).
