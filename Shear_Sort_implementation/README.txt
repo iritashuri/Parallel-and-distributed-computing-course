@@ -40,5 +40,7 @@ Click on "Build" --> Rhight click on project -->  Run as --> Run configuration -
 3. Click Apply.
 4. Click Run.
 
+In order to print sorted result to the console the and compare it with the list before, define DEBUG_MOD to be 1.
+
 
 (Number of processes have to be n*n type).
