@@ -14,7 +14,7 @@ In case of equal volumes, the bodies are compared according to their heights.
 
 The project includs: 
 
-Boxes_Sort.c - source file to compile and execute (execute as parallel program ->  compile via mpicc -lm and run via mpiexec!)
+Boxes_Sort.c - source file to compile and execute.
 
 Boxes_sort.h - Header file with definitions of the functions Boxes_Sort.c use and the Box structs. 
 
